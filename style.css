@@ -222,14 +222,13 @@ footer .footer-text{
         padding-bottom: 10px;
     }
     .content-wrapper-services{
-        display: grid;
-        grid-template-columns:98%;
-        gap:0;
-        margin: 0;
+       display: block;
+        margin: 0 auto;
       }
+
       .content-wrapper-services div{
         height: 100px;
-        max-width: 200px;
+        max-width: 95%;
         background-color: hsl(0, 73%, 78%);
         display: flex;
         flex-direction: column;
@@ -278,6 +277,18 @@ footer .footer-text{
       }
       .h1-center-video h1 div{
         margin-bottom: 0;
+      }
+
+      .div-wrapper-contact{
+        display: block
+      }
+      .div-wrapper-contact div{
+        height: auto;
+        padding: 20px;
+      }
+
+      .container-gallery div {
+        margin-bottom: 8px;
       }
   }
 
