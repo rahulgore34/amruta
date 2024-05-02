@@ -6,7 +6,7 @@
 }
 nav{
     display: grid;
-    grid-template-columns: 40% 60%;
+    grid-template-columns: 40% 50% 10%;
     width: 100%;
     padding: 3px 10px;
     z-index: 10;
@@ -167,6 +167,14 @@ footer .footer-text{
   .email{
     font-size: 25px;
   }
+  .social-wrapper{
+    margin-top: 13px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  .show-social-icon{
+    display: none;
+  }
   @media only screen and (max-width:600px) {
     nav{
         display: grid;
@@ -289,6 +297,16 @@ footer .footer-text{
 
       .container-gallery div {
         margin-bottom: 8px;
+      }
+      .social-wrapper{
+       display: none;
+      }
+      .show-social-icon{
+        position: fixed;
+        top:35%;
+        right: 5px;
+        display: block;
+        z-index: 99;
       }
   }
 
